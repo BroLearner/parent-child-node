@@ -1,0 +1,26 @@
+#outer{
+    background-color: rgb(246, 193, 71);
+    margin: 10px;
+    padding: 20px;
+}
+
+#inner{
+    background-color: pink;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(248, 48, 141);
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+    justify-content: center;
+    padding: 80px;
+}
